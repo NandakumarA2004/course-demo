@@ -125,3 +125,9 @@ html {
     .highlight {
       color: #6f42c1;
     }
+    @media screen and (max-width: 600px) {
+      #rem {
+        display: none;
+      }
+    }
+    
