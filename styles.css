@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 237, 252);
+    min-height: 100vh;
+    overflow-y: auto;
+}
+html {
+    min-height: 100vh;
+    overflow-y: auto;
+}
+#h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #93008ee6;
+    background-color: rgb(233, 244, 255);
+    width: 276px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 80px;
+    border-width: 200px;
+    padding-left: 12px;
+    margin-top: 50px;
+    
+}
+#h1 {
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+#ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 5px;
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 800px;
+    gap: 60px;
+    margin-top: -40px;
+    font-weight: bold;
+   
+
+}
+.course-card {
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .course-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .course-image {
+      position: relative;
+      height: 180px;
+}
+
+    .course-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.badge-custom {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px 10px;
+      font-size: 0.8rem;
+      border-radius: 5px;
+      color: #fff;
+    } 
+
+    .badge-recommended {
+      background-color: #d63384;
+    }
+
+    .badge-new {
+      background-color: #2d6cdf;
+    }
+
+    .course-body {
+      padding: 20px;
+    }
+
+    .course-body h5 {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .rating i {
+      color: #fbc02d;
+    }
+
+    .icon-text {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+    }
+
+    .icon-text i {
+      color: #343a40;
+    }
+
+    .see-more {
+      color: #0d6efd;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .see-more:hover {
+      text-decoration: underline;
+    }
+
+    .section-title {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    .highlight {
+      color: #6f42c1;
+    }
